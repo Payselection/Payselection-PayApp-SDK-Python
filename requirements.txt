@@ -1,0 +1,7 @@
+requests
+pydantic==2.5.3
+pydantic-settings==2.0.3
+cryptography
+email-validator
+setuptools
+urllib3
