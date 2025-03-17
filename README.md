@@ -1,5 +1,8 @@
 ## PaySelection SDK for Python
 
+[![Latest Stable Version](https://img.shields.io/pypi/v/payselection.svg)](https://pypi.org/project/payselection/)
+[![License](https://img.shields.io/pypi/l/payselection.svg)](https://github.com/Payselection/Payselection-PayApp-SDK-Python)
+
 PaySelection SDK позволяет интегрировать работу с платежами для приложений, написанных с помощью Python
 
 ## Требования
@@ -13,9 +16,8 @@ PaySelection SDK позволяет интегрировать работу с �
 1. Установите pip.
 2. В консоли выполните команду
 ```bash
-pip install --upgrade payselection-sdk-python
+pip install --upgrade payselection
 ```
-
 
 ## Начало работы
 

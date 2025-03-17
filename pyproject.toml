@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "payselection-sdk"
-version = "1.0.0"
+name = "payselection"
+version = "1.0.1"
 description = "Payselection SDK allows you to integrate work with payments for applications"
 readme = "README.md"
 authors = [
@@ -20,9 +20,3 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/Payselection/Payselection-PayApp-SDK-Python"
 Issues = "https://github.com/Payselection/Payselection-PayApp-SDK-Python/issues"
-
-[tool.setuptools]
-packages = ["your_package"]  # Укажите имя пакета
-
-[tool.setuptools.package-data]
-"your_package" = ["data/*.json"]  # Включение файлов данных
