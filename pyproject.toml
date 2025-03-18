@@ -4,7 +4,20 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "payselection"
-version = "1.0.1"
+version = "1.0.2"
+dependencies = [
+    "requests",
+    "pydantic==2.5.3",
+    "pydantic-settings==2.0.3",
+    "cryptography",
+    "email-validator",
+    "setuptools",
+    "urllib3",
+    "python-dateutil",
+    "langcodes",
+    "pydantic_extra_types",
+    "pycountry",
+]
 description = "Payselection SDK allows you to integrate work with payments for applications"
 readme = "README.md"
 authors = [
