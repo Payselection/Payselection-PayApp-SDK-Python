@@ -79,11 +79,13 @@ class VatType(str, Enum):
     NONE = 'none'
     VAT0 = 'vat0'
     VAT10 = 'vat10'
-    VAT18 = 'vat18'
     VAT110 = 'vat110'
+    VAT18 = 'vat18'
     VAT118 = 'vat118'
     VAT20 = 'vat20'
     VAT120 = 'vat120'
+    VAT22 = 'vat22'
+    VAT122 = 'vat122'
 
 
 class Measure(int, Enum):
